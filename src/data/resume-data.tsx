@@ -20,14 +20,14 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Nguyễn Thành Trung",
+  name: "Trung Nguyen Thanh",
   initials: "TrungNT",
   location: "Hà Nội, Việt Nam",
   locationLink: "https://www.google.com/maps/place/Hanoi",
   about:
     "Game Developer",
   summary:
-    "Có 5 năm kinh nghiệm trong lĩnh vực lập trình game di dộng, trong đó có 4 năm kinh nghiệm chuyên sâu về lập trình game bằng engine Cocos Creator, đặc biệt là trong việc phát triển và phát hành trên nền tảng Facebook Instant Game. Đã tham gia vào rất nhiều các dự án game khác nhau và cho ra mắt thị trường nhiều game thành công với hàng triệu người chơi mỗi tháng.",
+    "With five years of mobile game development experience, I bring four years of focused expertise in programming games using the Cocos Creator engine. Specializing in the development and release of games on the Facebook Instant Game platform, I have contributed to various successful projects, introducing games to the market that attract millions of players monthly.",
   avatarUrl: "https://avatars.githubusercontent.com/u/63865082?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -48,42 +48,42 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Đại học Sư Phạm Hà Nội",
-      degree: "Công nghệ thông tin",
+      school: "Hanoi National University of Education - Viet Nam",
+      degree: "Bachelor's Degree in Information technology",
       start: "2013",
       end: "2017",
     },
   ],
   work: [
     {
-      company: "HAYHAY GLOBAL",
+      company: "HayHay Global",
       link: "https://hayhay.one",
       badges: [],
       title: "Cocos Creator Game Developer",
       start: "03/2019",
-      end: "Nay",
+      end: "Present",
       description:
-        "Chịu trách nhiệm phát triển game sử dụng Cocos Creator (Javasript, TypeScript), thiết kế và xây dựng code base, lập kế hoạch và thực hiện các tính năng của game theo tài liệu từ Game Designer, làm việc với Game Artist và Game Designer để đảm bảo hiệu suất và chất lượng của game, sửa lỗi cho game, theo dõi và phân tích các chỉ số log trên Firebase để đánh giá và đề xuất các tính năng mới, trao đổi với Facebook Reviewer để tuân thủ các chính sách, nhanh chóng nắm bắt các xu hướng game hot để tích hợp vào các game hiện có.",
+        "Responsible for developing games using Cocos Creator (JavaScript, TypeScript), designing and constructing the codebase, planning and implementing game features based on documentation from Game Designers. Collaborate with Game Artists and Game Designers to ensure game performance and quality. Address and troubleshoot game errors, monitor and analyze log metrics on Firebase for evaluation and proposal of new features. Engage with Facebook Reviewers to adhere to policies, swiftly adapt to emerging gaming trends for integration into existing games.",
     },
     {
-      company: "TỔNG CÔNG TY TRUYỀN HÌNH CÁP VIỆT NAM",
+      company: "Vietnam Cable Television and Electronics",
       link: "https://www.vtvcab.vn/",
       badges: [],
       title: "Mobile Application Developer",
       start: "05/2018",
       end: "02/2019",
       description:
-        "Tham gia phát triển ứng dụng ICAB sử dụng React Native (Javascript). Ứng dụng chạy trên các thiết bị di động Android / IOS giúp quản lý các nhân viên tại các chi nhánh trên toàn quốc. Hỗ trợ xử lý các vấn đề về tín hiệu truyền hình, thuê bao khách hàng cho các chi nhánh.",
+        "Participated in the development of the ICAB application using React Native (JavaScript). The application operates on Android/iOS mobile devices, facilitating the management of employees across nationwide branches. Provided support in handling issues related to television signal transmission and customer subscriptions for branch locations.",
     },
     {
-      company: "VIET ARCHERY",
+      company: "Viet Archery",
       link: "",
       badges: [],
       title: "Cocos 2dx / Unity Game Developer",
       start: "08/2017",
       end: "04/2018",
       description:
-        "Tham gia phát triển game với Cocos 2dx, Cocos 2d-js, Unity",
+        "Engaged in game development using Cocos 2dx, Cocos 2d-js, and Unity.",
     },
   ],
   skills: [
@@ -105,7 +105,7 @@ export const RESUME_DATA = {
         "Javascript",
         "Facebook Instant Game",
       ],
-      description: "Egg Shoot Dynomite Bubble Pop - Bắn trứng khủng long là game casual/puzzle được làm theo format của tựa game đình đám cùng tên rất nổi tiếng.",
+      description: `"Egg Shoot Dynomite Bubble Pop" - Dinosaur Egg Shooting is a casual/puzzle game crafted in the format of the popular and renowned title of the same name.`,
       link: {
         label: "Egg Shoot Dynomite Bubble Pop",
         href: "https://fb.gg/play/eggshoot",
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Shoot Bubbles: Ocean Pop là game thuộc dòng game casual/puzzle kinh điển và rất dễ gây nghiện.",
+        `"Shoot Bubbles: Ocean Pop" is a classic casual/puzzle game known for its addictive gameplay.`,
       link: {
         label: "Shoot Bubbles: Ocean Pop",
         href: "https://fb.gg/play/bubbleshoot",
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Onet X Connect Matched Animals thuộc dòng game nối thú kinh điển.",
+        `"Onet X Connect Matched Animals" belongs to the classic genre of animal pairing puzzle games.`,
       link: {
         label: "Onet X Connect Matched Animals",
         href: "https://fb.gg/play/onetxanimal",
@@ -147,7 +147,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "DOP 1: Remove One Part là game thuộc dòng game puzzle. Cách chơi rất dễ dàng, chỉ cần chạm vào màn hình và kéo ngón tay của bạn để xóa một phần hình ảnh và nếu xoá đúng chỗ, người chơi sẽ qua level.",
+        `"DOP 1: Remove One Part" is a puzzle game known for its straightforward gameplay. Players can easily interact by touching the screen and dragging their fingers to remove a portion of the image. Successfully clearing the correct area allows players to progress to the next level.`,
       link: {
         label: "DOP 1: Remove One Part",
         href: "https://fb.gg/play/removeonepart",
@@ -161,7 +161,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Tiếp nối sự thành công của DOP 1, dự án DOP 2: Draw One Part đã được triển khai ngay khi ra mắt thành công DOP 1. Đúng như tên gọi, người chơi cần vẽ thêm vào các hình ảnh còn thiếu, và nếu vẽ đúng thì sẽ qua level.",
+        `Building on the success of DOP 1, the project DOP 2: Draw One Part was immediately launched following the successful release of DOP 1. As the name suggests, players are required to draw missing parts into images, progressing to the next level upon successful completion.`,
       link: {
         label: "DOP 2: Draw One Part",
         href: "https://fb.gg/play/drawpuzzle",
@@ -174,7 +174,7 @@ export const RESUME_DATA = {
         "Javascript",
         "Facebook Instant Game",
       ],
-      description: "Thuộc dòng game endless runner, người chơi sẽ điều khiển miếng sushi sao cho ăn được coin và vượt nhiều chướng ngại vật nhất có thể.",
+      description: `Belonging to the endless runner genre, this game puts players in control of a piece of sushi, aiming to collect coins and overcome as many obstacles as possible.`,
       link: {
         label: "Sweet Party",
         href: "https://fb.gg/play/sushirollnew",
@@ -188,7 +188,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Color Water Sort là một trò chơi giải đố trong đó mục tiêu là sắp xếp chất lỏng theo màu sắc bằng cách trộn chúng đúng cách",
+        `"Color Water Sort" is a puzzle game where the objective is to organize liquids by color through proper mixing and sorting techniques.`,
       link: {
         label: "Color Water Sort",
         href: "https://fb.gg/play/colorwatersort",
@@ -202,8 +202,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Phiên bản khác của Egg Shoot Dynomite Bubble Pop. Game sẽ tính giờ mỗi lượt chơi thay vì chơi endless",
-      logo: EvercastLogo,
+        `Another version of Egg Shoot Dynomite Bubble Pop. This game introduces timed gameplay per session instead of endless play.`,
       link: {
         label: "Egg Shoot Dynomite Time Attack",
         href: "https://fb.gg/play/eggshootpro",
@@ -217,7 +216,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        "Trò chơi bóng rổ, nhiệm vụ của người chơi là đưa bóng vào rổ càng nhiều càng tốt",
+        `A basketball game where the player's objective is to shoot the ball into the basket, aiming for as many successful shots as possible.`,
       link: {
         label: "Basket Hit",
         href: "https://fb.gg/play/baskethit",
