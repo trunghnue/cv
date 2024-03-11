@@ -56,7 +56,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "HAYHAY GLOBAL",
+      company: "HayHay Global",
       link: "https://hayhay.one",
       badges: [],
       title: "Cocos Creator Game Developer",
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
         "Chịu trách nhiệm phát triển game sử dụng Cocos Creator (Javasript, TypeScript), thiết kế và xây dựng code base, lập kế hoạch và thực hiện các tính năng của game theo tài liệu từ Game Designer, làm việc với Game Artist và Game Designer để đảm bảo hiệu suất và chất lượng của game, sửa lỗi cho game, theo dõi và phân tích các chỉ số log trên Firebase để đánh giá và đề xuất các tính năng mới, trao đổi với Facebook Reviewer để tuân thủ các chính sách, nhanh chóng nắm bắt các xu hướng game hot để tích hợp vào các game hiện có.",
     },
     {
-      company: "TỔNG CÔNG TY TRUYỀN HÌNH CÁP VIỆT NAM",
+      company: "Tổng công ty Truyền hình Cáp Việt Nam",
       link: "https://www.vtvcab.vn/",
       badges: [],
       title: "Mobile Application Developer",
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
         "Tham gia phát triển ứng dụng ICAB sử dụng React Native (Javascript). Ứng dụng chạy trên các thiết bị di động Android / IOS giúp quản lý các nhân viên tại các chi nhánh trên toàn quốc. Hỗ trợ xử lý các vấn đề về tín hiệu truyền hình, thuê bao khách hàng cho các chi nhánh.",
     },
     {
-      company: "VIET ARCHERY",
+      company: "Viet Achery",
       link: "",
       badges: [],
       title: "Cocos 2dx / Unity Game Developer",
