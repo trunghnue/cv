@@ -25,14 +25,14 @@ export const RESUME_DATA = {
   location: "Hà Nội, Việt Nam",
   locationLink: "https://www.google.com/maps/place/Hanoi",
   about:
-    "Game Developer",
+    "Senior Game Developer",
   summary:
-    "With five years of mobile game development experience, I bring four years of focused expertise in programming games using the Cocos Creator engine. Specializing in the development and release of games on the Facebook Instant Game platform, I have contributed to various successful projects, introducing games to the market that attract millions of players monthly.",
+    "With five years of mobile game development experience, specializing in Cocos Creator, I have a proven track record of developing and launching games on Facebook Instant Game, Android, and iOS platforms. My contributions have driven the successful release of multiple projects, attracting millions of monthly players.",
   avatarUrl: "https://avatars.githubusercontent.com/u/63865082?v=4",
   personalWebsiteUrl: "",
   contact: {
     email: "trungnguyenthanh.dev@gmail.com",
-    tel: "0966964899",
+    // tel: "+84966964899",
     social: [
       {
         name: "GitHub",
@@ -56,14 +56,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "GameZoka",
+      link: "https://gamezoka.com",
+      badges: [],
+      title: "Senior Game Developer",
+      start: "06/2024",
+      end: "Present",
+      description:
+        "Lead the development of a multiplayer game using Cocos Creator and the SmartFoxServer framework. Spearheaded product development, collaborating with team members to design and implement core gameplay mechanics and multiplayer functionalities. Provided mentorship and training to a teammate, fostering a collaborative environment to ensure the successful execution of project goals. Continuously optimized game performance and quality, integrating new features based on evolving requirements and player feedback.",
+    },
+    {
       company: "HayHay Global",
       link: "https://hayhay.one",
       badges: [],
-      title: "Cocos Creator Game Developer",
+      title: "Game Developer",
       start: "03/2019",
-      end: "Present",
+      end: "05/2024",
       description:
-        "Responsible for developing games using Cocos Creator (JavaScript, TypeScript), designing and constructing the codebase, planning and implementing game features based on documentation from Game Designers. Collaborate with Game Artists and Game Designers to ensure game performance and quality. Address and troubleshoot game errors, monitor and analyze log metrics on Firebase for evaluation and proposal of new features. Engage with Facebook Reviewers to adhere to policies, swiftly adapt to emerging gaming trends for integration into existing games.",
+        "Responsible for developing games using Cocos Creator (JavaScript, TypeScript). Led the design and construction of the codebase, implementing game features based on detailed Game Designer documentation. Collaborated closely with Game Artists and Designers to optimize game performance and ensure high-quality experiences. Diagnosed and resolved game errors, leveraging Firebase for log monitoring and metric analysis to evaluate and propose new features. Engaged with Facebook Reviewers to ensure compliance with platform policies, while quickly integrating new gaming trends and technologies into existing projects.",
     },
     {
       company: "Vietnam Cable Television and Electronics",
@@ -95,9 +105,26 @@ export const RESUME_DATA = {
     "Facebook Instant Game",
     "Git",
     "Team work",
-    "Game Design"
+    "Game Design",
+    "Multiplayer Game",
+    "SmartFoxServer",
+    "Firebase Analytics",
   ],
   projects: [
+    {
+      title: "Pusoy Dos",
+      techStack: [
+        "Cocos Creator",
+        "TypeScript",
+        "Facebook Instant Game",
+        "Multiplayer Game",
+      ],
+      description: `"Pusoy Dos" is a multiplayer card game that allows players to compete against each other in real-time.`,
+      link: {
+        label: "Pusoy Dos",
+        href: "https://fb.gg/play/pusoydosgame",
+      },
+    },
     {
       title: "Egg Shoot Dynomite Bubble Pop",
       techStack: [
@@ -147,7 +174,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        `"DOP 1: Remove One Part" is a puzzle game known for its straightforward gameplay. Players can easily interact by touching the screen and dragging their fingers to remove a portion of the image. Successfully clearing the correct area allows players to progress to the next level.`,
+        `"DOP 1: Remove One Part" is a puzzle game where players touch and drag to remove parts of an image. Clearing the correct area reveals the solution, advancing players to the next level.`,
       link: {
         label: "DOP 1: Remove One Part",
         href: "https://fb.gg/play/removeonepart",
@@ -161,7 +188,7 @@ export const RESUME_DATA = {
         "Facebook Instant Game",
       ],
       description:
-        `Building on the success of DOP 1, the project DOP 2: Draw One Part was immediately launched following the successful release of DOP 1. As the name suggests, players are required to draw missing parts into images, progressing to the next level upon successful completion.`,
+        `DOP 2: Draw One Part followed the success of DOP 1, challenging players to draw missing parts in images to advance to the next level.`,
       link: {
         label: "DOP 2: Draw One Part",
         href: "https://fb.gg/play/drawpuzzle",
@@ -220,6 +247,34 @@ export const RESUME_DATA = {
       link: {
         label: "Basket Hit",
         href: "https://fb.gg/play/baskethit",
+      },
+    },
+    {
+      title: "PopUs",
+      techStack: [
+        "Cocos Creator",
+        "TypeScript",
+        "Facebook Instant Game",
+      ],
+      description:
+        `"PopUs" is a casual game where players pop bubbles by tapping on them.`,
+      link: {
+        label: "PopUs",
+        href: "https://www.facebook.com/gaming/play/166365298923895/",
+      },
+    },
+    {
+      title: "Candy Kingdom",
+      techStack: [
+        "Cocos Creator",
+        "Javascript",
+        "Facebook Instant Game",
+      ],
+      description:
+        `"Candy Kingdom" is a match-3 game where players match candies to clear the board.`,
+      link: {
+        label: "Candy Kingdom",
+        href: "https://www.facebook.com/gaming/play/3280083422063465/",
       },
     },
   ],
